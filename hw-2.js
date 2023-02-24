@@ -20,7 +20,7 @@
 // alert(raz);
 // alert(pro);
 // alert(del);
-// // 5 mission 
+// // 5 mission
 // let num_3 = 2;
 // let num_4 = 5;
 // let result = num_3 ** num_4;
@@ -39,10 +39,10 @@
 // num += 1;
 // num -= 1;
 // alert(num);
-// // 8 mission 
+// // 8 mission
 // let age = prompt("Сколько вам лет?");
 // alert(age);
-// 9 mission 
+// 9 mission
 // let user = {
 //     name: "Airat",
 //     age: 20,
@@ -57,5 +57,94 @@
 // let info = prompt("Какую информацию хотите узнать о пользователе?");
 // alert(`info`);
 // 10 mission
-let firstName = prompt("Назовите ваше имя");;
-alert("Привет, " + `${firstName}` + "!");
+// let firstName = prompt("Назовите ваше имя");;
+// alert("Привет, " + `${firstName}` + "!");
+// let day = String(prompt('Введите день недели'));
+// switch (day) {
+//     case 'понедельник':
+//         console.log('Первый день недели')
+//         break;
+//     case 'вторник':
+//         console.log('Второй день недели')
+//         break;
+//     case 'среда':
+//         console.log('Третий день недели')
+//         break;
+//     default:
+//         console.log('ввел что-то не то');
+//         break;
+// }
+// 2.3 lesson
+// 1 mission
+// let password = 'пароль';
+// let givePassword = prompt('Введите пароль');
+// if (givePassword == 194) {
+//     console.log('Пароль введен верно');
+// } else {
+//     console.log('Пароль введен неверно');
+// }
+// alright
+// 2 mission
+// let c = 2;
+// if (c > 0 && c < 10) {
+//     console.log('Верно');
+// } else {
+//     console.log('Не верно');
+// }
+// alright
+// let d = 20;
+// let e = 330;
+// if (d >= 100 || e >= 100) {
+//     console.log('Верно');
+// } else {
+//     console.log('Не верно');
+// }
+// alright
+// 4 mission
+// let a = Number('2');
+// let b = Number('3');
+// alert(a + b);
+// alright
+// 5 mission
+let month = prompt("Введите число месяца");
+switch (month) {
+    case 'первый':
+        console.log('Зима');
+        break;
+    case 'второй':
+        console.log('Зима');
+        break;
+    case 'третий':
+        console.log('Весна');
+        break;
+    case 'четвертый':
+        console.log('Весна');
+        break;
+    case 'пятый':
+        console.log('Весна');
+        break;
+    case 'шестой':
+        console.log('Лето');
+        break;
+    case 'седьмой':
+        console.log('Лето');
+        break;
+    case 'восьмой':
+        console.log('Лето');
+        break;
+    case 'девятый':
+        console.log('Осень');
+        break;
+    case 'десятый':
+        console.log('Осень');
+        break;
+    case 'одиннадцатый':
+        console.log('Осень');
+        break;
+    case 'двеннадцатый':
+        console.log('Зима');
+        break;
+    default:
+        break;
+}
+// alright хотел упростить каким-то образом, не получилось, слишком большой код, это не норм
