@@ -106,45 +106,69 @@
 // alert(a + b);
 // alright
 // 5 mission
-let month = prompt("Введите число месяца");
-switch (month) {
-    case 'первый':
-        console.log('Зима');
-        break;
-    case 'второй':
-        console.log('Зима');
-        break;
-    case 'третий':
-        console.log('Весна');
-        break;
-    case 'четвертый':
-        console.log('Весна');
-        break;
-    case 'пятый':
-        console.log('Весна');
-        break;
-    case 'шестой':
-        console.log('Лето');
-        break;
-    case 'седьмой':
-        console.log('Лето');
-        break;
-    case 'восьмой':
-        console.log('Лето');
-        break;
-    case 'девятый':
-        console.log('Осень');
-        break;
-    case 'десятый':
-        console.log('Осень');
-        break;
-    case 'одиннадцатый':
-        console.log('Осень');
-        break;
-    case 'двеннадцатый':
-        console.log('Зима');
-        break;
-    default:
-        break;
-}
+// let month = Number(prompt("Введите число месяца"));
+// switch (month) {
+//     case 1:
+//         console.log('Зима');
+//         break;
+//     case 2:
+//         console.log('Зима');
+//         break;
+//     case 3:
+//         console.log('Весна');
+//         break;
+//     case 4:
+//         console.log('Весна');
+//         break;
+//     case 5:
+//         console.log('Весна');
+//         break;
+//     case 6:
+//         console.log('Лето');
+//         break;
+//     case 7:
+//         console.log('Лето');
+//         break;
+//     case 8:
+//         console.log('Лето');
+//         break;
+//     case 9:
+//         console.log('Осень');
+//         break;
+//     case 10:
+//         console.log('Осень');
+//         break;
+//     case 11:
+//         console.log('Осень');
+//         break;
+//     case 12:
+//         console.log('Зима');
+//         break;
+//     default:
+//         break;
+// }
 // alright хотел упростить каким-то образом, не получилось, слишком большой код, это не норм
+// 2.4 lesson while do..while for forEach
+// let i = 0;
+// while (i < 6) {
+//     console.log(i);
+//     i++;
+// }
+// let i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i < 6);
+
+// let i = 1;
+// let n = Number(prompt('Сколько раз вам сказать привет?!'));
+// while (i <= n) {
+//     alert('Привет')
+//     i++;
+// }
+// let number;
+// do {
+//     number = Number(prompt('Введите 5 для проверки'));
+// } while (number !== 5);
+//     console.log('Правильно!');
+ 
