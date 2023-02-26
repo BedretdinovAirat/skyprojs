@@ -171,4 +171,31 @@
 //     number = Number(prompt('Введите 5 для проверки'));
 // } while (number !== 5);
 //     console.log('Правильно!');
- 
+// let i = 7;
+// while (i <= 22) {
+//     console.log(i);
+//     i++
+// }
+// const obj = {
+//     'Коля': '200',
+//     'Вася': '300',
+//     'Петя': '400'
+// };
+// for (const key in obj) { // то есть тут Айрат мы обращаемся к объекту
+//     const name = obj[key]; // здесь мы обращаемся уже к свойствам объекта
+//     console.log(`${key} — зарплата ${name} долларов.`);
+// }
+// let n = 1000;
+// let num = 0;
+// while (n > 50) {
+//     num++;
+//     n /= 2;
+// };
+// alert(n)
+// alert(num)
+// let fri = 7;
+// if (fri = 7) {
+//     console.log('Сегодня пятница');
+// } else {
+
+// }
