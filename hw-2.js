@@ -109,35 +109,21 @@
 // let month = Number(prompt("Введите число месяца"));
 // switch (month) {
 //     case 1:
-//         console.log('Зима');
-//         break;
 //     case 2:
 //         console.log('Зима');
 //         break;
 //     case 3:
-//         console.log('Весна');
-//         break;
 //     case 4:
-//         console.log('Весна');
-//         break;
 //     case 5:
 //         console.log('Весна');
 //         break;
 //     case 6:
-//         console.log('Лето');
-//         break;
 //     case 7:
-//         console.log('Лето');
-//         break;
 //     case 8:
 //         console.log('Лето');
 //         break;
 //     case 9:
-//         console.log('Осень');
-//         break;
 //     case 10:
-//         console.log('Осень');
-//         break;
 //     case 11:
 //         console.log('Осень');
 //         break;
@@ -182,8 +168,8 @@
 //     'Петя': '400'
 // };
 // for (const key in obj) { // то есть тут Айрат мы обращаемся к объекту
-//     const name = obj[key]; // здесь мы обращаемся уже к свойствам объекта
-//     console.log(`${key} — зарплата ${name} долларов.`);
+//     const value = obj[key]; // здесь мы обращаемся уже к свойствам объекта
+//     console.log(`${key} — зарплата ${value} долларов.`);
 // }
 // let n = 1000;
 // let num = 0;
@@ -193,15 +179,22 @@
 // };
 // alert(n)
 // alert(num)
-const numFriday = 3;
-alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
-const numFriday_1 = 3;
-alert(`Сегодня пятница, ${numFriday_1} число. Необходимо подготовить отчёт`);
-const numFriday_2 = 10;
-alert(`Сегодня пятница, ${numFriday_2} число. Необходимо подготовить отчёт`);
-const numFriday_3 = 17;
-alert(`Сегодня пятница, ${numFriday_3} число. Необходимо подготовить отчёт`);
-const numFriday_4 = 24;
-alert(`Сегодня пятница, ${numFriday_4} число. Необходимо подготовить отчёт`);
-const numFriday_5 = 3;
-alert(`Сегодня пятница, ${numFriday_5} число. Необходимо подготовить отчёт`);
+// const numFriday = 3;
+// alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+// const numFriday_1 = 3;
+// alert(`Сегодня пятница, ${numFriday_1} число. Необходимо подготовить отчёт`);
+// const numFriday_2 = 10;
+// alert(`Сегодня пятница, ${numFriday_2} число. Необходимо подготовить отчёт`);
+// const numFriday_3 = 17;
+// alert(`Сегодня пятница, ${numFriday_3} число. Необходимо подготовить отчёт`);
+// const numFriday_4 = 24;
+// alert(`Сегодня пятница, ${numFriday_4} число. Необходимо подготовить отчёт`);
+// const numFriday_5 = 3;
+// alert(`Сегодня пятница, ${numFriday_5} число. Необходимо подготовить отчёт`);
+let numFriday;
+for (numFriday = 3; numFriday < 31; numFriday + 7) {
+    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+}
