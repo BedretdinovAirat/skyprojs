@@ -193,9 +193,15 @@
 // };
 // alert(n)
 // alert(num)
-// let fri = 7;
-// if (fri = 7) {
-//     console.log('Сегодня пятница');
-// } else {
-
-// }
+const numFriday = 3;
+alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+const numFriday_1 = 3;
+alert(`Сегодня пятница, ${numFriday_1} число. Необходимо подготовить отчёт`);
+const numFriday_2 = 10;
+alert(`Сегодня пятница, ${numFriday_2} число. Необходимо подготовить отчёт`);
+const numFriday_3 = 17;
+alert(`Сегодня пятница, ${numFriday_3} число. Необходимо подготовить отчёт`);
+const numFriday_4 = 24;
+alert(`Сегодня пятница, ${numFriday_4} число. Необходимо подготовить отчёт`);
+const numFriday_5 = 3;
+alert(`Сегодня пятница, ${numFriday_5} число. Необходимо подготовить отчёт`);
