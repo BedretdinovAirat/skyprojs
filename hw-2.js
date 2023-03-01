@@ -191,10 +191,116 @@
 // alert(`Сегодня пятница, ${numFriday_4} число. Необходимо подготовить отчёт`);
 // const numFriday_5 = 3;
 // alert(`Сегодня пятница, ${numFriday_5} число. Необходимо подготовить отчёт`);
-let numFriday;
-for (numFriday = 3; numFriday < 31; numFriday + 7) {
-    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
-    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
-    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
-    numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
-}
+// let numFriday;
+// for (numFriday = 3; numFriday < 31; numFriday + 7) {
+//     numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+//     numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+//     numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+//     numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
+// }
+// 2.5 lesson function
+// function sayhello(name = 'Airat') {
+//     alert(`Привет, ${name}!`);
+// }
+// sayhello('Vasya');
+// function calc(a, b) {
+//     let sum = a + b;
+//     let mult = a * b;
+//     console.log(`Сумма параметров равно ${sum}
+//     Произведение равно ${mult}`);
+// }
+// calc(4, 5);
+// calc(10, 12);
+// function riddle(question, answer) {
+//     let userAnswer = prompt(question);
+
+//     if (userAnswer === answer) {
+//         console.log('угадал');
+//     } else {
+//         console.log('не угадал');
+//     }
+// }
+// riddle('Сидит дед во сто шуб одет кто его раздевает тот слёзы проливает', 'лук');
+// riddle('Зимой и летом одним цветом', 'елка'); goodjob Airat
+// function sum(prepaidExpense, salary) {
+//     return prepaidExpense + salary;
+// }
+// function mult(day, moneyDay) {
+//     return day * moneyDay;
+// }
+// let month1 = sum(30, 40);
+// let month2 = sum(40, 55);
+
+// let result = month1 + month2;
+// result2 = mult(45, 3.4);
+// console.log(`Всего заработал ${result}`);
+// console.log(`Зарплата по дням ${result2}`);
+// function number(a, b, c) {
+//     return c;
+//     let sum = a + b;
+//     return sum;
+// }
+// console.log(numbers(10, 2, 3));
+// let sum = (a, b) => a + b; // в sum запишет сумму чисел a и b
+// второй вариант
+// let mult = (a, b) => {
+//     let result = a * b;
+//     return result;
+// }
+// function delMessage() {
+//     let del = confirm('Вы правда хотите удалить сообщение?'); // true or false
+//     del ? alert('Сообщение удалено!') : alert('Ничего страшного нет, мы ничего не удалили');
+// }
+// const puzzle = (a, b) => {
+//     if (a > b) {
+//         return a + b;
+//     } else {
+//         return a * b;
+//     }
+// }
+// console.log(puzzle(20, 3));
+// 1 mission
+// function number(a, b) {
+//     if (a > b) {
+//         return b;
+//     } else {
+//         return a;
+//     }
+// }
+// alert(number(40, 2)); 
+// 2 mission
+// function numberTake(n) {
+//     if (n % 2 == 0) {
+//         console.log('Число четное');
+//     } else {
+//         console.log('Число нечетное');
+//     }
+// }
+// numberTake(44); 
+// 3\1 mission
+// function num(a) {
+//     return a ** 10;
+// }
+// console.log(num(2));
+// 3\2 mission
+// function num(a) {
+//     return a ** 10;
+// }
+// alert(num(2));
+// 4 mission
+// let age = prompt('Сколько тебе лет?');
+
+// function ageMen(age) {
+//     if (age < 0) {
+//         alert('Вы ввели неправильное значение');
+//     } else {
+//         //     if (age <= 12)
+//         //         alert('Привет, друг!');
+//         // }
+//         // if (age = 13) {
+//         //     alert('Добро пожаловать!');
+//         // } else {
+//         //     console.log('НЕ ТО!');
+//         // }
+//     }
+// }
