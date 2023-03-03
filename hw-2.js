@@ -288,19 +288,35 @@
 // }
 // alert(num(2));
 // 4 mission
-// let age = prompt('Сколько тебе лет?');
-
 // function ageMen(age) {
 //     if (age < 0) {
 //         alert('Вы ввели неправильное значение');
-//     } else {
-//         //     if (age <= 12)
-//         //         alert('Привет, друг!');
-//         // }
-//         // if (age = 13) {
-//         //     alert('Добро пожаловать!');
-//         // } else {
-//         //     console.log('НЕ ТО!');
-//         // }
+//     } else if (age <= 12) {
+//         alert('Привет, друг!');
+//     } else if (age >= 13) {
+//         alert("Добро пожаловать!");
 //     }
 // }
+// ageMen(-12);
+// 5 mission
+// let a = prompt('Введите любое число');
+// let b = prompt('Введите любое число');
+// function number(a, b) {
+//     if (isNaN(a) || isNaN(b)) {
+//         console.log('Одно или оба значения не являются числом');
+//     } else {
+//         console.log(a * b);
+//     }
+// }
+// number(a, b);
+// 6 mission
+let num = prompt('Введите любое число');
+let num_1 = num ** 3;
+function theNumber(num) {
+    if (isNaN(num)) {
+        console.log('Переданный параметр не является числом');
+    } else {
+        console.log(`${num} в кубе равняется ${num_1}`);
+    }
+}
+theNumber(num);
