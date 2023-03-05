@@ -198,6 +198,9 @@
 //     numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
 //     numFriday = alert(`Сегодня пятница, ${numFriday} число. Необходимо подготовить отчёт`);
 // }
+// for (let numFriday = 3; numFriday < 31; numFriday + 7) {
+//     alert(`Сегодня пятница, ${numFriday} число.Необходимо подготовить отчёт`);
+// }
 // 2.5 lesson function
 // function sayhello(name = 'Airat') {
 //     alert(`Привет, ${name}!`);
@@ -267,7 +270,7 @@
 //         return a;
 //     }
 // }
-// alert(number(40, 2)); 
+// alert(number(40, 2));
 // 2 mission
 // function numberTake(n) {
 //     if (n % 2 == 0) {
@@ -276,7 +279,7 @@
 //         console.log('Число нечетное');
 //     }
 // }
-// numberTake(44); 
+// numberTake(44);
 // 3\1 mission
 // function num(a) {
 //     return a ** 10;
@@ -310,13 +313,94 @@
 // }
 // number(a, b);
 // 6 mission
-let num = prompt('Введите любое число');
-let num_1 = num ** 3;
-function theNumber(num) {
-    if (isNaN(num)) {
-        console.log('Переданный параметр не является числом');
-    } else {
-        console.log(`${num} в кубе равняется ${num_1}`);
-    }
-}
-theNumber(num);
+// let num = prompt('Введите любое число');
+// let num_1 = num ** 3;
+// function theNumber(num) {
+//     if (isNaN(num)) {
+//         console.log('Переданный параметр не является числом');
+//     } else {
+//         console.log(`${num} в кубе равняется ${num_1}`);
+//     }
+// }
+// theNumber(num);
+
+// 2.6 massive
+
+// 1 mission
+// const arr = [1, 5, 4, 10, 0, 3];
+// for (let index = 0; index < arr.length; index++) {
+//     if (index = 10) {
+//         console.log('Цикл остановился, index = 10');
+//     }
+// }
+
+// for (const key in arr) { фор ин
+//     console.log(arr[key]);
+// }
+
+// for (let elem of arr) { фор оф
+//     console.log(elem);
+// }
+
+// arr.forEach(function (item, index, arrMas) {
+//     console.log(item);
+// }
+
+// 2 mission
+
+// const arr = [1, 5, 4, 10, 0, 3];
+// console.log(arr.indexOf(4));
+
+// 3 mission
+// let numbers = [1, 3, 5, 10, 20];
+
+// numbers = numbers.join(' ');
+// console.log(numbers);
+
+// 4 mission
+
+// let data_1 = [1, 1, 1];
+// let data_2 = [1, 1, 1];
+// let data_3 = [1, 1, 1];
+// let generalData = [[data_1, data_2, data_3]]
+// for (let index = 0; index < data_1.length; index++) {
+//     generalData.push([data_1[index], data_2[index * 2], data_3[index * 2 + 1]]);
+//     console.log(generalData);
+// }
+
+// 6 mission
+
+// let arr = [9, 8, 7, 'a', 6, 5];
+// arr = arr.sort();
+// console.log(arr);
+// let arrNew = arr.pop();
+// console.log(arr);
+// console.log(arrNew);
+
+// 7 mission
+
+// function numbers() {
+//     let arr = prompt()
+// }
+
+// 8 mission
+
+// const str = 'abcdef';
+// const reverse = str.split('').reverse().join('');
+// console.log(reverse);
+
+// 9 mission
+
+// let numbers = [1, 2, 3];
+// numbers.push(4, 5, 6);
+// console.log(numbers);
+
+// 10 mission
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let index = 0; index < arr.length; index++) {
+//     if (index = 10) {
+//         console.log('Цикл остановился, index = 10');
+//     }
+// }
+
