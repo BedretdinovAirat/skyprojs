@@ -404,3 +404,32 @@
 //     }
 // }
 
+// 2.7 lesson
+
+// const answerUser = prompt('Без рук, а рисует. Без зубов, а кусает');
+// const answer = 'мороз';
+// if (answerUser.toLowerCase() === answer.toLowerCase()) {
+//     alert('Это правильный ответ!');
+// } else {
+//     alert(`Не угадал, правильный ответ: ${answer}`);
+// }
+// const str = 'Поезд едет далеко';
+// str.indexOf('едет');
+// str.indexOf('едит');
+
+// код в основе реализации элемента поиск во многих веб-приложений
+// const products = ['Хлеб Бородинский', 'Молоко Молочник', 'Коровка Молоко', 'Груша Конференция'];
+// const search = 'молоко';
+// products.forEach((product) => {
+//     if (product.toLowerCase().includes(search.toLowerCase())) {
+//         console.log(product);
+//     }
+// });
+
+// const products = ['Хлеб Бородинский', 'Молоко Молочник', 'Коровка Молоко', 'Груша Конференция'];
+// const search = 'молоко';
+// products.forEach((product) => {
+//     if (product.toLowerCase().startsWith(search.toLowerCase())) {
+//         console.log(product);
+//     }
+// });
