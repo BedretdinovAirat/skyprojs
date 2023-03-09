@@ -408,13 +408,13 @@
 
 // 10 mission
 
-let arr = [2, 4, 6, 8, 10];
-for (let i = 0; i < (arr.length - 1); i++) {
-    let a = arr[i];
-    let b = arr[i + 1];
-    let sum = a + b;
-    console.log(sum);
-}
+// let arr = [2, 4, 6, 8, 10];
+// for (let i = 0; i < (arr.length - 1); i++) {
+//     let a = arr[i];
+//     let b = arr[i + 1];
+//     let sum = a + b;
+//     console.log(sum);
+// }
 
 // 2.7 lesson
 
@@ -530,7 +530,69 @@ for (let i = 0; i < (arr.length - 1); i++) {
 
 // 2 mission
 
-// function stroka(arr = ['Кошка', 'Кит', 'Комар', 'Носорог'], str = 'prosto') {
+// function stroka(arr = ['Кошка', 'Кит', 'Комар', 'Носорог']) {
 //     let arr = [];
-
 // }
+
+// 3 mission
+
+// let num_1 = 32.58884;
+// console.log(Math.floor(num_1));
+
+// let num_2 = 32.58884;
+// console.log(Math.ceil(num_2));
+
+// let num_3 = 32.58884;
+// console.log(Math.round(num_2));
+
+// 4 mission 
+
+// let num_1 = 52;
+// let num_2 = 53;
+// let num_3 = 49;
+// let num_4 = 77;
+// let num_5 = 21;
+// let num_6 = 32;
+// let numGeneral = Math.max(num_1, num_2, num_3, num_4, num_5, num_6);
+// let numGeneral_2 = Math.min(num_1, num_2, num_3, num_4, num_5, num_6);
+// console.log(numGeneral);
+// console.log(numGeneral_2);
+
+// 5 mission
+
+// function randomInteger(min, max) {
+//     let rand = min + Math.random() * (max + 1 - min);
+//     return Math.floor(rand);
+// }
+
+// alert(randomInteger(1, 10));
+
+// 6 mission
+
+// function getRandomInt(value) {
+//     return arr[0, value];
+// }
+
+// 8 mission
+
+// let currentDate = new Date();
+// console.log(currentDate);
+
+// 9 mission 
+
+// let currentDate = new Date("10 March 2023");
+// currentDate.setDate(73);
+// console.log(currentDate);
+
+// 10 mission
+
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+    "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+let myDate = new Date(); // в текущей точке программы мы создали переменную, которая хранит текущую дату
+myDate.setDate(15);
+myDate.setMonth(6);
+myDate.setYear(2020);
+let fullDate = myDate.getDate() + ", " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
+
+console.log(fullDate); 
