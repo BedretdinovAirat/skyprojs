@@ -332,6 +332,7 @@
 //     if (index = 10) {
 //         console.log('Цикл остановился, index = 10');
 //     }
+//    break;
 // }
 
 // for (const key in arr) { фор ин
@@ -357,16 +358,24 @@
 // numbers = numbers.join(' ');
 // console.log(numbers);
 
+
+
 // 4 mission
 
-// let data_1 = [1, 1, 1];
-// let data_2 = [1, 1, 1];
-// let data_3 = [1, 1, 1];
-// let generalData = [[data_1, data_2, data_3]]
-// for (let index = 0; index < data_1.length; index++) {
-//     generalData.push([data_1[index], data_2[index * 2], data_3[index * 2 + 1]]);
-//     console.log(generalData);
+// let arr = [];
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//     for (let j = 0; j < 3; j++) {
+//         arr[i].push[1]
+//     }
 // }
+// console.log(arr);
+
+// 5 mission
+
+// let numberArr = [1, 1, 1];
+// numberArr.push(2, 2, 2);
+// console.log(numberArr);
 
 // 6 mission
 
@@ -379,9 +388,11 @@
 
 // 7 mission
 
-// function numbers() {
-//     let arr = prompt()
-// }
+// let arr = [9, 8, 7, 6, 5];
+// let user = prompt('Введите число от 0 до 10');
+// let search = arr.includes(Number(user));
+// console.log(search);
+
 
 // 8 mission
 
@@ -397,12 +408,13 @@
 
 // 10 mission
 
-// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// for (let index = 0; index < arr.length; index++) {
-//     if (index = 10) {
-//         console.log('Цикл остановился, index = 10');
-//     }
-// }
+let arr = [2, 4, 6, 8, 10];
+for (let i = 0; i < (arr.length - 1); i++) {
+    let a = arr[i];
+    let b = arr[i + 1];
+    let sum = a + b;
+    console.log(sum);
+}
 
 // 2.7 lesson
 
@@ -433,3 +445,92 @@
 //         console.log(product);
 //     }
 // });
+
+// Объект Date
+
+// getDate(), getDay(), getMonth(), getFullyear(), toDateString(), getHours(), getMinutes(), getSeconds(), getMilliseconds(), toTimeString(),
+
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+// "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+// let myDate = new Date();
+// let fullDate = "Сегодня: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
+// console.log(fullDate);
+
+// программа которая выводит приветствие и данное время суток
+
+// let welcome; // переменная, в которой будем хранить наше приветствие
+// let myDate = new Date(); // получаем текущую дату
+// let hour = myDate.getHours(); // получаем час из нашей даты
+// let minute = myDate.getMinutes(); // получаем минуты
+// let second = myDate.getSeconds(); // получаем секунды
+
+// если минуты и секунды у нас будут меньше 10, то в результате формат времени
+// будет не очень красивым — 12:1:34 или 3:1:6
+// намного приятнее следующие записи: 12:01:34 или 3:01:06
+// чтобы добиться формата, как в последних примерах, будем осуществлять
+// проверку на < 10
+
+// if (minute < 10) { // если минут будет меньше 10,
+//     minute = "0" + minute; // то перед ними поставим 0
+// }
+// if (second < 10) { // если секунд будет меньше 10,
+//     second = "0" + second; // то перед ними поставим 0
+// }
+
+// здесь мы проверяем, который час, и в зависимости от этого в переменную welcom
+// сохраняем приветствие, зависящее от времени суток
+// if (hour < 12) {
+//     welcome = "Доброе утро";
+// } else if (hour < 17) {
+//     welcome = "Добрый день";
+// } else {
+//     welcome = "Добрый вечер";
+// }
+
+// console.log(welcome + ", текущее время: " + hour + ":" + minute + ":" + second);
+// Доброе утро, текущее время: 4:37:21
+
+// setDate(), setMonth(), setFullYear(), setHours(), setMinutes(), setSeconds(), setMilliseconds()
+
+// на русском...
+
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+//     "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+// let myDate = new Date();
+// myDate.setDate(26);
+// myDate.setMonth(8);
+// myDate.setYear(2024);
+// let fullDate = myDate.getDate() + " " + months[myDate.getMonth()] +
+//     " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
+// console.log(fullDate);
+
+// флаги
+// let regexp = new RegExp('^[а-яА-Я]*$'); // без флагов
+// let regexpFlag = new RegExp('^[а-яА-Я]*$', 'gmi'); // с флагами gmi
+// let regexp = /^[а-яА-Я]*$/; // без флагов
+// let regexpFlag = /^[а-яА-Я]*$/gmi; // с флагами gmi
+
+// программа на правильно ввода имени на кириллице
+
+// let regexp = /^[а-яА-Я]*$/; // что означает эта запись, мы разберем чуть ниже
+// let name = prompt('Введите ваше имя. Используйте только кириллические символы');
+
+// if (regexp.test(name)) {
+//     alert('Ваше имя сохранено');
+// } else {
+//     alert('Введены некорректные символы');
+// }
+
+// 1 mission
+
+// let stroka = 'js';
+// console.log(stroka.toUpperCase());
+
+// 2 mission
+
+// function stroka(arr = ['Кошка', 'Кит', 'Комар', 'Носорог'], str = 'prosto') {
+//     let arr = [];
+
+// }
