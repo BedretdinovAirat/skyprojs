@@ -586,13 +586,43 @@
 
 // 10 mission
 
-const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
-const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-    "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
-let myDate = new Date(); // в текущей точке программы мы создали переменную, которая хранит текущую дату
-myDate.setDate(15);
-myDate.setMonth(6);
-myDate.setYear(2020);
-let fullDate = myDate.getDate() + ", " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+//     "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+// let myDate = new Date(); 
+// myDate.setDate(15);
+// myDate.setMonth(6);
+// myDate.setYear(2020);
+// let fullDate = myDate.getDate() + ", " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()];
 
-console.log(fullDate); 
+// console.log(fullDate); 
+
+// 6 mission
+
+// Возьмем функцию из задачи 5, немного изменим ее,
+// чтобы она возвращала случайное число в диапазоне от min до max
+// const getRandomNum = (min, max) => {
+//     return Math.round(Math.random() * (max - min) + min);
+// };
+
+// Создадим функцию, которая будет возвращать массив случайных чисел
+// function getRandomArray(max) {
+//     // Сделаем заглушку для массива
+//     let arr = [];
+//     // Запустим цикл (сразу ограничем количество итераций до половины от заданного числа
+//     // который будет добавлять в массив случайные числа.
+//     // Для этого воспользуемся функцией getRandomNum
+//     for (let i = 0; i < (Math.floor(max) - 1) / 2; i++) {
+//         arr.push(getRandomNum((min = 0), max));
+//     }
+//     // Вернем массив
+//     return arr;
+// }
+// console.log(getRandomArray(17));
+
+// mission 7 
+
+// function getRandomNum(min, max) {
+//     return Math.random() * (max - min) + min;
+// }
+// console.log(getRandomNum(1, 12));
