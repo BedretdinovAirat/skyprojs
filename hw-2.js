@@ -626,3 +626,163 @@
 //     return Math.random() * (max - min) + min;
 // }
 // console.log(getRandomNum(1, 12));
+
+// 2.8 mission
+
+// setTimeout(); 
+// setInterval();
+
+// function sayHi() {
+//     const name = prompt('Введите ваше имя');
+//     console.log(`Привет, ${name}!`);
+// };
+// const idTimeout = setTimeout(sayHi, 2000);
+
+// function sayHi() {
+//     console.log(`Привет!`);
+// };
+// const idTimeout = setTimeout(sayHi, 2000);
+// // console.log(idTimeout);
+// clearTimeout(idTimeout);
+
+// const idInterval = setInterval(sayHi, 1000);
+// clearInterval(idInterval);
+
+// let timerId = setTimeout(function tick() {
+//     alert('tick');
+//     timerId = setTimeout(tick, 2000); // (*)
+// }, 2000);
+
+// const timer = (deadline) => {
+//     // const interval = () => {
+//     //     console.log(deadline);
+//     // };
+//     // setInterval(interval, 1000);
+//     let time = deadline;
+//     console.log(time);
+//     const idInterval = setInterval(() => {
+//         time -= 1;
+//         console.log(time);
+//     }, 1000);
+//     setTimeout(() => {
+//         clearInterval(idInterval);
+//         console.log('Время истекло!');
+//     }, 1000 * deadline)
+// };
+// timer(3);
+
+// функция на большинстве сайтов 
+// const timer = (deadline) => {
+//     if (isNaN(+deadline)) { // + - приводим значение к number, если это NaN,
+//         console.log('Передано некорректное число'); // выводим сообщение
+//         return; // выходим из функции
+//     }
+
+//     let time = deadline;
+//     const interval = setInterval(() => {
+//         time -= 1;
+//         console.log(time);
+//     }, 1000);
+
+//     setTimeout(() => {
+//         clearInterval(interval);
+//         console.log('Время истекло!')
+//     }, deadline * 1000)
+// };
+
+// const deadline = prompt('На сколько секунд вы хотите поставить таймер?');
+// timer(deadline);
+
+const a = 0;
+// const request = (data) => {
+//     let response;
+//     setTimeout(() => {
+//         response = `Ответ сервера: ${data + 1}`;
+//         console.log(response);
+//     }, 1000);
+//     return response;
+// };
+// const request = (data, callback) => {
+//     setTimeout(() => {
+//         let response = `Ответ сервера: ${data + 1}`;
+//         callback(response);
+//     }, 1000);
+// };
+
+// const responseProcessing = (b) => {
+//     console.log(b);
+//     console.log('Запрос завершён');
+// };
+// // let response = request(a);
+// // responseProcessing(response);
+// let response = request(a, responseProcessing);
+
+// 2.8 lesson, 1 mission
+
+// let arr = [1, 3, 5, 7, 9];
+// let mult = arr.reduce((a,b) => a * b);
+// let sum = arr.reduce((a,b) => a + b);
+// function result(mult) {
+//     console.log(mult);
+// }
+// result(mult);
+
+// 2 mission
+
+// function compareUser(a, b) {
+//     if (a.age > b.age) return 1;
+//     if (a.age < b.age) return -1;
+//     return 0;
+// }
+// const users = [
+//     { name: 'Jon', age: 22 },
+//     { name: 'Richard', age: 18 },
+//     { name: 'Anton', age: 32 },
+//     { name: 'Lida', age: 23 },
+//     { name: 'Bob', age: 44 }
+// ];
+// let gerSortedArrayObj = users.sort(compareUser);
+// console.log(gerSortedArrayObj);
+
+// 3 mission
+
+// let arr = [1, '4', false, 9, 'two'];
+// console.log(arr);
+// const reversArr = arr.reverse();
+// let filterArr = arr.map((el) => +el ).filter((el) => !isNaN(el));
+
+// console.log(numberArr);
+// console.log(filterArr);
+
+// 4 mission
+
+// setTimeout(() => { clearInterval(timerId); alert(endMessage); }, 5000);
+// let date = new Date();
+// let endMessage = "30 секунд прошло";
+// let time = () => {
+//     console.log(date);
+// }
+// let timerId = setInterval((time), 1000);
+
+// 5 mission
+
+// function calling() {
+//     console.log('Звоню!')
+// };
+
+// function beeps() {
+//         setTimeout(talk, 1000);
+//     console.log('Идут гудки...')
+
+// }
+
+// function talk() {
+//     console.log('Разговор')
+// }
+
+// calling();
+// beeps(talk);
+
+
+
+
