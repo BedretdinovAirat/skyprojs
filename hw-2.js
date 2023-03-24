@@ -727,11 +727,16 @@ const a = 0;
 // }
 // result(mult);
 
-let mult = (arr) => arr.reduce((a, b) => a * b);
-function result(arr, callback) {
-    let mult = (arr) => arr.reduce((a, b) => a * b);
-    return callback(arr)
+// 2.8. 1 mission 24.03.2023
+
+function getResult(arr, func) {
+    return Math.round(func(arr));
 }
+let mult = (arr) => arr.reduce((a, b) => a * b);
+let sum = (arr) => arr.reduce((a, b) => a + b);
+//  
+console.log(getResult ([3, 4, 1, 9], mult));
+
 
 // 2 mission
 
@@ -750,7 +755,37 @@ function result(arr, callback) {
 // let gerSortedArrayObj = users.sort(compareUser);
 // console.log(gerSortedArrayObj);
 
-// 3 mission
+// 3 mission 24.03.2023
+
+// function each(arr, func) {
+//     return func(arr);
+
+// }
+// const arr = [1, '4', 9, 'two'];
+// function reversArr(arr) {
+//     return arr.reverse();
+// };
+// const arr = [1, '4', false, 9, 'two'];
+
+// function toNumberArr(arr) {
+//         let result = [];
+//     for ( i = 0; i < arr.length; i++ ) {
+
+//         if(isNaN(Number(arr[i])) == false )
+
+//          result.push(Number(arr[i]));
+//     }
+//     return result;
+// }
+// console.log(each(arr, reversArr));
+// console.log(each(arr, toNumberArr));
+
+
+
+
+
+
+
 
 // let arr = [1, '4', false, 9, 'two'];
 // console.log(arr);
