@@ -719,13 +719,19 @@ const a = 0;
 
 // 2.8 lesson, 1 mission
 
-// let arr = [1, 3, 5, 7, 9];
+// let arr = [3, 4, 1, 9];
 // let mult = arr.reduce((a,b) => a * b);
-// let sum = arr.reduce((a,b) => a + b);
+// // let sum = arr.reduce((a,b) => a + b);
 // function result(mult) {
 //     console.log(mult);
 // }
 // result(mult);
+
+let mult = (arr) => arr.reduce((a, b) => a * b);
+function result(arr, callback) {
+    let mult = (arr) => arr.reduce((a, b) => a * b);
+    return callback(arr)
+}
 
 // 2 mission
 
@@ -782,7 +788,3 @@ const a = 0;
 
 // calling();
 // beeps(talk);
-
-
-
-
