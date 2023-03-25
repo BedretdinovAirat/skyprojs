@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2.2 JS</title>
+    <title>2.7 JS</title>
 </head>
 <body>
-    <script src="./hw-2.js"></script>
+    <!-- <button onclick="theNumber()">Удалить сообщение?</button> -->
+    <!-- <script src="./hw-2.js"></script> -->
+    <h1 style="color:black" id="header">Любимые цвета студентов</h1>
+    <ul id="list">
+        <li>Глеб, любимый цвет <span style="color: #ff2600;"> #ff2600</span></li>
+        <li>Иван, любимый цвет <span style="color: #00f900;"> #00f900</span></li>
+        <li>Люси, любимый цвет <span style="color: #0432ff;"> #0432ff</span></li>
+    </ul>
+    
+    <div>
+        <h3>Форма добавления</h3>
+        Имя:
+        <input type="text" id="name-input" />
+        <br /><br />
+        Цвет:
+        <input type="color" id="color-input" />
+        <br /><br />
+        <button id="add-button">Добавить</button>
+        <button id="add-button_two">Поменять заголовок</button>
+        <button id="add-button_three">Поменять обратно</button>
+        <button id="add-button_header">Поменять цвет</button>
+    </div>
 </body>
+<style>
+    .head {
+        color: red;
+    }
+    .error {
+        background-color: #ff2600;
+    }
+</style>
+<!-- <script src="./dommain.js">   
+</script> -->
+<script src="hw-2.js"></script>
 </html>
